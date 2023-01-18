@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+html {
+  background-image: linear-gradient(to right, #a8c8bf, #048e66);
+  height: 100%;
+}
+header {
+  background-image: url(https://images.unsplash.com/photo-1602450069437-d52c62f52a71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a3Vuc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+}
+header h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.listinheader {
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font: bold;
+}
+#mainpic {
+  background-image: url(https://images.unsplash.com/photo-1625737187287-cdc8c1ea852f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1bnN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+  height: 50vh;
+  width: 70vh;
+  margin-right: 20px;
+  float: left;
+  border-radius: 80%;
+}
+#mainpic2 {
+  background-image: url(https://images.unsplash.com/photo-1613635469708-524a5f9b056e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a3Vuc3R3ZXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+  height: 50vh;
+  width: 70vh;
+  float: right;
+  border-radius: 80%;
+}
+
+article.termin1,
+article.termin2 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.digitaleangebote,
+.da {
+  display: flex;
+  justify-content: space-around;
+}
+#da1 {
+  background-image: url(https://images.unsplash.com/photo-1604592708114-1110531d4227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8a3Vuc3R3ZXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+  height: 10em;
+  width: 10em;
+  background-size: cover;
+}
+#da2 {
+  background-image: url(https://media.istockphoto.com/id/1136796753/photo/spider-web-with-dewdrops.jpg?b=1&s=170667a&w=0&k=20&c=uKngdy52kyrfXbMdSlaEIgLpAd72k9Jj2rSNYrlZDyY=);
+  height: 10em;
+  width: 10em;
+  background-size: cover;
+}
+#da3 {
+  background-image: url(https://images.unsplash.com/photo-1625737187206-e4b278739715?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGt1bnN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+  height: 10em;
+  width: 10em;
+  background-size: cover;
+}
+#da4 {
+  background-image: url(https://media.istockphoto.com/id/1130493190/photo/hollywood-slate-board.jpg?b=1&s=170667a&w=0&k=20&c=WW7e8A42OiDE5Jceb_TLYIbLcNTzKWpbkLLtR4wy_rs=);
+  height: 10em;
+  width: 10em;
+  background-size: cover;
+}
+/* #scupture {
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+#nature {
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+#postcard {
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+#tour {
+  display: flex;
+  color: white;
+  align-items: flex-end; 
+}*/
+
+div.da p {
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+footer {
+  margin-top: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  border-top: solid;
+}
+footer ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
